@@ -1,0 +1,360 @@
+@font-face {
+  font-family: BubblegumSans;
+  src: url('../font/BubblegumSans.ttf');
+}
+
+@font-face {
+  font-family: Dongle;
+  src: url('../font/Dongle-Light.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  font-family: Dongle;
+  margin-right: 200px;
+  margin-left: 180px;
+}
+
+.hero-image {
+  background-size: cover;
+}
+
+.marketing-text {
+  color: white;
+  padding-top: 140px;
+  margin-top: -20px;
+  margin-left: -134px;
+  text-shadow: 0px 0px 100px black;
+}
+
+.marketing-text-title {
+  text-shadow: 0px 0px 100px black;
+}
+
+.button {
+  background-color: white;
+  border: none;
+  color: black;
+  width: 140px;
+  text-align: center;
+  margin-top: 4px;
+  padding-top: 4px;
+  font-size: 22px;
+  border-radius: 8px;
+  transition: 0.15s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #ececec;
+}
+
+.logo {
+  font-family: BubblegumSans;
+  font-size: 30px;
+  color: rgb(106, 23, 173);
+}
+
+.nav-menu {
+  font-family: Dongle;
+  padding: 0 5px 2px 50px;
+  margin-right: -14px;
+  font-size: 30px;
+}
+
+.nav-link {
+  color: #16c15a;
+}
+
+.title {
+  width: 60%;
+  margin-top: 350px;
+  float: left;
+  text-align: right;
+  padding-right: 40px;
+}
+
+.predict-form {
+  padding: 20px 0;
+  width: 50%;
+  float: left;
+}
+
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact textarea,
+#contact button[type="submit"] {
+  font: 400 12px/16px "Roboto", Helvetica, Arial, sans-serif;
+}
+
+#contact {
+  background: #F9F9F9;
+  padding-top: 0;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact input[type="text"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background: #FFF;
+  margin: 0 0 5px;
+  padding: 10px;
+  font-size: 17.5px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  width: 98.5%;
+  border: none;
+  background: #20c25e;
+  color: white;
+  font-size: 16px;
+  border-radius: 5px;
+  margin: 50px 30px 15px 5px;
+  padding: 10px;
+  font-size: 14px;
+}
+
+#contact button[type="submit"]:hover {
+  background: #1ab455;
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+.copyright {
+  text-align: center;
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: #888;
+}
+
+:-moz-placeholder {
+  color: #888;
+}
+
+::-moz-placeholder {
+  color: #888;
+}
+
+:-ms-input-placeholder {
+  color: #888;
+}
+
+h1 {
+  margin: 5px 0 0 0;
+  font-size: 50px;
+  line-height: 0.80;
+  width: 700px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+.description {
+  margin-top: 260px;
+}
+
+.title-keterangan {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.patient-non-risk {
+  border: 1px solid #1db658;
+  border-radius: 10px;
+  margin-bottom: -20px;
+}
+
+.patient-have-risk {
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  margin-bottom: -25px;
+}
+
+.patient-non-risk,
+.patient-have-risk {
+  font-size: 40px;
+}
+
+.non-risk {
+  color: #1db658;
+}
+
+.have-risk {
+  color: #ff0000;
+}
+
+.kembali {
+  font-size: 30px;
+  text-decoration: none;
+}
+
+.footer-marketing-text {
+  font-size: 24px;
+  text-shadow: 1px 1px 5px #000000;
+}
+
+.side-left {
+  float: left;
+  margin-top: 30px;
+}
+
+.side-right {
+  float: right;
+  margin-top: 30px;
+}
+
+.label {
+  font-size: 22px;
+  font-family: Dongle;
+  margin-right: 30px;
+}
+
+.form-input {
+  width: 100px;
+  padding: 10px;
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  float: right;
+}
+
+.display {
+  color: white;
+}
+
+#result {
+  text-align: center;
+  font-size: 24px;
+  font-family: Dongle;
+}
+
+#category {
+  text-align: center;
+  font-size: 24px;
+  font-family: Dongle;
+}
+
+.bmi-calculator-container {
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 55px;
+}
+
+.float-predict-form {
+  width: 50%;
+  float: left;
+  padding: 20px;
+  border: 2px solid red;
+}
+
+.side-left {
+  margin-left: 25px;
+  margin-right: 12.5px;
+}
+
+.side-right {
+  margin-right: 25px;
+  margin-left: 12.5px;
+}
+
+.row{
+  color: white;
+}
+
+.form-select {
+  border: 0.5px solid gray;
+  border-radius: 5px;
+  width: 100%;
+  padding: 10 px;
+  float: right;
+  font-size: 22px;
+  font-family: Dongle;
+}
+
+.copy-right {
+color: #ececec;
+text-align: center;
+margin-top: 70px;
+}
