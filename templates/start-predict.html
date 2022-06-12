@@ -60,13 +60,13 @@
         <div class="side-left">
           <fieldset class="label">
             BMI
-            <input placeholder="Ketikkan tingkat bmi anda?" name="bmi" type="text" tabindex="1" class="form-input"
+            <input placeholder="Masukan tingkat BMI anda" name="bmi" type="text" tabindex="1" class="form-input"
               required autofocus>
           </fieldset>
   
           <fieldset class="label">
             Usia
-            <input placeholder="Ketikkan usia Anda" name="age" type="text" tabindex="2" class="form-input" required>
+            <input placeholder="Masukan usia anda" name="age" type="text" tabindex="2" class="form-input" required>
           </fieldset>
   
           <fieldset class="label">
@@ -79,18 +79,18 @@
           </fieldset>
   
           <fieldset class="label">
-            Tinggi Badan
-            <input placeholder="Ketikkan tinggi badan" name="height" type="text" tabindex="4" class="form-input" required>
+            Tinggi Badan (CM)
+            <input placeholder="Masukan tinggi badan anda" name="height" type="text" tabindex="4" class="form-input" required>
           </fieldset>
   
           <fieldset class="label">
-            Berat Badan
-            <input placeholder="Ketikkan berat badan" name="weight" type="text" tabindex="5" class="form-input" required>
+            Berat Badan (KG)
+            <input placeholder="Masukan berat badan anda" name="weight" type="text" tabindex="5" class="form-input" required>
           </fieldset>
   
           <fieldset class="label">
             Tekanan Darah Sistolik
-            <input placeholder="Ketikkan tekanan darah sistolik" name="systolic" type="text" tabindex="6"
+            <input placeholder="Masukan tekanan darah sistolik anda" name="systolic" type="text" tabindex="6"
               class="form-input" required>
           </fieldset>
         </div>
@@ -100,7 +100,7 @@
         <div class="side-right">
           <fieldset class="label">
             Tekanan Darah Diastolik
-            <input placeholder="Ketikkan tekanan darah diastolic" name="diastolic" type="text" tabindex="7"
+            <input placeholder="Masukan tekanan darah diastolik anda" name="diastolic" type="text" tabindex="7"
               class="form-input" required>
           </fieldset>
   
@@ -118,9 +118,9 @@
             Glukosa
             <select class="form-select" name="glucose" tabindex="9">
               <option selected value="">Pilih</option>
-              <option value="1">Normal</option>
-              <option value="2">Di atas Normal</option>
-              <option value="3">Jauh di atas Normal</option>
+              <option value="1">Normal (kurang dari 99 mg/dl)</option>
+              <option value="2">Di atas Normal (100 - 125 mg/dl)</option>
+              <option value="3">Jauh di atas Normal (lebih dari 126 mg/dl)</option>
             </select>
           </fieldset>
   
@@ -154,7 +154,7 @@
       </div>
 
       <fieldset>
-        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">
+        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending" tabindex="13">
           Prediksi
         </button>
       </fieldset>
